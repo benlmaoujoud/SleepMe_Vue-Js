@@ -30,7 +30,11 @@ select {
     background: #fff;
 
   }
-
+.band{
+  position: absolute;
+  bottom: 8px;
+  left: 1px;
+}
 .button-6 {
   align-items: center;
   background-color: #FFFFFF;
@@ -97,12 +101,17 @@ h2{
     margin-top: 12px;
     text-align: center;
     align-content: center;
-    margin-right: 100px;
+    margin-right: 30px;
   }
   h2{
     align-content: center;
     text-align: center;
-    margin-right: 8rem;
+    margin-right: 2rem;
+  }
+  .band{
+    position: absolute;
+    bottom: 8px; 
+    left: 1px;
   }
 
 }
