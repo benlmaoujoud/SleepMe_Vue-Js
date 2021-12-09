@@ -14,7 +14,7 @@ new Vue({
     selectedTime = this.hour+":"+this.min+": 00"+" "+this.flag
     var d = new Date(moment(selectedTime,'h:mm:ss a'))
     
-    var time = moment.duration("08:00:00")
+    var time = moment.duration("08:15:00")
     var date = moment(d)
     date.subtract(time)
     
